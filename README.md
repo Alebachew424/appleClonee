@@ -26,9 +26,9 @@ This project was developed by six GitHub contributors working in parallel teams:
 | GitHub Username | Role |
 |-----------------|------|
 | [rom4321](https://github.com/rom4321) | Front-End Developer |
-| [alebachewdev](https://github.com/alebachewdev) | UI/UX Designer |
-| [HannaShiferaw](https://github.com/HannaShiferaw) | JavaScript Developer |
-| [Fenet-22](https://github.com/Fenet-22) | CSS Specialist |
+| [alebachewdev](https://github.com/alebachewdev) | Front-End Developer |
+| [HannaShiferaw](https://github.com/HannaShiferaw) | CSS Specialist |
+| [Fenet-22](https://github.com/Fenet-22) | JavaScript Developer |
 | [Mubarekmba](https://github.com/Mubarekmba) | jQuery Integrator |
 | [alebachew424](https://github.com/alebachew424) | Project Coordinator |
 
