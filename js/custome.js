@@ -127,21 +127,6 @@
 //   });
 // });
 
-//=========================3rd ways
-// ================== ADDED JS START FOR FOOTER COLLAPSE ==================
-// $(document).ready(function () {
-//   $(".footer-links-wrapper h3").click(function () {
-//     if ($(window).width() <= 768) {
-//       $(this).toggleClass("iconRotator"); // + -> x
-//       $(this).next("ul").slideToggle(); // show/hide sub-links
-//     }
-//   });
-// });
-
-// ================== ADDED JS END FOR FOOTER COLLAPSE ==================
-
-
-
 
 
 //======4th ways
