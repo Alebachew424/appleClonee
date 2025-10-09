@@ -298,6 +298,18 @@ img {
   color: #fff;
   margin-bottom: 10px;
 }
+.iphone_air {
+  background-image: url("../images/home/iphone_air.jpg");
+  height: 580px;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: initial;
+  background-color: #fbfbfd;
+  text-align: center;
+  padding: 65px 20px;
+  color: #fff;
+  margin-bottom: 10px;
+}
 .ipod-caption {
   color: #86868b;
   font-size: 12px;
