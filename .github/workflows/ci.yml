@@ -7,5 +7,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Verify HTML, CSS, and JS files
-        run: echo "No build needed — static files only"
+      - name: Confirm static files exist
+        run: |
+          echo "Listing project files..."
+          ls -la
