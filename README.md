@@ -25,12 +25,14 @@ This project was developed by six GitHub contributors working in parallel teams:
 
 | GitHub Username | Role |
 |-----------------|------|
+| [beshir1229](https://github.com/beshir1229) | Front-End Developer |
 | [rom4321](https://github.com/rom4321) | Front-End Developer |
 | [alebachewdev](https://github.com/alebachewdev) | Front-End Developer |
 | [HannaShiferaw](https://github.com/HannaShiferaw) | CSS Specialist |
 | [Fenet-22](https://github.com/Fenet-22) | JavaScript Developer |
 | [Mubarekmba](https://github.com/Mubarekmba) | jQuery Integrator |
 | [alebachew424](https://github.com/alebachew424) | Project Coordinator |
+| [selomiefkre2123](https://github.com/selomiefkre2123) | Front-End Developer |
 
 Each team was assigned to develop interactive sections of the homepage, ensuring modularity and consistency across the entire layout.
 
