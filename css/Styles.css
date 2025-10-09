@@ -225,12 +225,21 @@ img {
   font-size: 30px;
   line-height: 1.15em;
   letter-spacing: -0.04em;
+  
+  /* ADD THESE TWO LINES TO CENTER THE BLOCK */
+  max-width: 500px; /* Give it a controlled width */
+  margin: 0 auto;   /* Center the block itself */
 }
+
 .title-wraper.bold {
   font-weight: 600;
   font-size: 32px;
   line-height: 1.15em;
   letter-spacing: -0.04em;
+  /* ADD THESE TWO LINES TO CENTER THE BLOCK */
+  max-width: 500px; /* Give it a controlled width */
+  margin: 0 auto;   /* Center the block itself */
+
 }
 .right-side-wrapper .title-wraper {
   max-width: 280px;
@@ -292,6 +301,9 @@ img {
 }
 .links-wrapper.white li a {
   color: #fff;
+  max-width: 300px; /* This is the key */
+  margin: 0 auto;   /* This is the key */
+  padding: 15px 0;
 }
 .fourth-heghlight-wrapper .right-side-wrapper .title-wraper {
   max-width: 380px;
@@ -346,6 +358,7 @@ img {
   color: #fff;
   margin-bottom: 10px;
 }
+/* iphone 17 */
 .iphone_17 {
   background-image: url("../images/home/iPhone-17.jpg");
   height: 580px;
@@ -357,6 +370,49 @@ img {
   padding: 65px 20px;
   color: #fff;
   margin-bottom: 10px;
+}
+.iphone_17_pro{
+  /* REMOVE background-image, background-position, background-size */
+  height: 580px;
+  background-color: black; /* Change this to the required black color */
+  text-align: center;
+  padding: 0; /* Remove padding here, or set to 0. Use it on the text instead. */
+  color: #fff;
+  margin-bottom: 10px;
+}
+/* 1. Container for positioning */
+.product-container {
+  position: relative;
+  height: 100%; /* Important: Takes up the full height of the section */
+  display: flex; /* Helps center content if needed */
+  justify-content: center; /* Centers items horizontally */
+  align-items: center; /* Centers items vertically */
+}
+
+/* 2. Image sizing */
+.product-image {
+  /* Ensure the image fills the container width and height */
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Crops the image to fill the space without distortion */
+  display: block;
+}
+
+/* 3. Text positioning */
+.product-info {
+  position: absolute; /* Takes the text out of the normal flow */
+  top: 50%; /* Start at 50% from the top */
+  left: 50%; /* Start at 50% from the left */
+  transform: translate(-50%, -50%); /* Move back by half of its own size to be perfectly centered */
+  width: 100%; /* Important: Allows the text to take up the full width for text-align: center to work */
+  text-align: center; /* Centers the inline content within this wrapper */
+}
+
+/* 4. Ensure the title text is white (since the background is black) */
+.product-info .title-wraper {
+  color: white !important; /* Use !important only if necessary to override existing .black class */
+  margin: 0 auto; /* Ensure the title wrapper block is centered */
+  max-width: 500px; /* Constrain the title wrapper */
 }
 .ipod-caption {
   color: #86868b;
@@ -440,6 +496,7 @@ img {
   }
   .title-wraper.bold {
     font-size: 56px;
+    text-align: center;
   }
   /* Second section */
   .second-hightlight-wrapper {
@@ -449,6 +506,12 @@ img {
   .new-alert {
     color: #bf4801;
     font-size: 18px;
+    text-align: center;
+  }
+  .new-alert-17{
+    color: black;
+    font-size: 18px;
+    text-align: center;
   }
   /* First section */
   .first-hightlight-wrapper {
